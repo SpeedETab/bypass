@@ -1,0 +1,922 @@
+{
+  "categories": [{
+    "id": 442,
+    "name": "Food",
+    "limit": null,
+    "alcohol": false,
+    "position": 1,
+    "items": [{
+      "id": 25722,
+      "price": "2.0",
+      "unit_price": "2.0",
+      "name": "Add a side Chili Cheese",
+      "description": "",
+      "image_url": "",
+      "category_id": 442,
+      "menu_name": "Add a side Chili Cheese",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": "",
+      "reporting_group_id": 262,
+      "tax_rate": "0.0",
+      "position": null,
+      "alcohol": false,
+      "state": "available",
+      "item_id": 25722,
+      "menu_id": 2040,
+      "option_types": [],
+      "sku": "25723",
+      "upc": null,
+      "plu": null,
+      "weight": null,
+      "print_group_printer_name": "HOT",
+      "tax_inclusive": false,
+      "sides": [],
+      "toppings": [],
+      "upsales": [],
+      "parts": [],
+      "variants": [],
+      "modifiers": [],
+      "tax_rates": []
+    }, {
+      "id": 25723,
+      "price": "1.0",
+      "unit_price": "1.0",
+      "name": "Al Pastor Tacos",
+      "description": "",
+      "image_url": "",
+      "category_id": 442,
+      "menu_name": "Al Pastor Tacos",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": "Eat",
+      "reporting_group_id": 262,
+      "tax_rate": "0.0",
+      "position": null,
+      "alcohol": false,
+      "state": "available",
+      "item_id": 25723,
+      "menu_id": 2919,
+      "option_types": [],
+      "sku": "25724",
+      "upc": null,
+      "plu": null,
+      "weight": null,
+      "print_group_printer_name": null,
+      "tax_inclusive": false,
+      "sides": [{
+        "id": 41079,
+        "name": "Caprisun Fruit Punch",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 7840,
+        "name": "cheddar",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 42657,
+        "name": "cheese",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 7839,
+        "name": "corn",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 41078,
+        "name": "French sauce",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 32653,
+        "name": "Tomatoes",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }],
+      "toppings": [{
+        "id": 31537,
+        "name": "Aged Fromage",
+        "price": "1.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 31535,
+        "name": "Avocado",
+        "price": "1.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 31536,
+        "name": "bacon",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }],
+      "upsales": [],
+      "parts": [],
+      "variants": [],
+      "modifiers": [{
+        "id": 1103,
+        "type": "multi_selection",
+        "name": "Alaskan Amber Sides",
+        "require_selection": false,
+        "additional_price": null,
+        "limit_selection_to": null,
+        "options": [{
+          "id": 9662,
+          "name": "Caprisun Fruit Punch",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 3136,
+          "name": "cheddar",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1458,
+          "name": "cheese",
+          "price": "2.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1461,
+          "name": "corn",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1452,
+          "name": "French sauce",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2200,
+          "name": "Tomatoes",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }, {
+        "id": 1102,
+        "type": "multi_selection",
+        "name": "Alaskan Amber Toppings",
+        "require_selection": false,
+        "additional_price": null,
+        "limit_selection_to": null,
+        "options": [{
+          "id": 1454,
+          "name": "Aged Fromage",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2277,
+          "name": "Avocado",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1459,
+          "name": "bacon",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }],
+      "tax_rates": []
+    }, {
+      "id": 25724,
+      "price": "10.5",
+      "unit_price": "10.5",
+      "name": "Ancho Chicken Tacos",
+      "description": "",
+      "image_url": "",
+      "category_id": 442,
+      "menu_name": "Ancho Chicken Tacos",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": "Eat",
+      "reporting_group_id": 262,
+      "tax_rate": "0.0",
+      "position": null,
+      "alcohol": false,
+      "state": "available",
+      "item_id": 25724,
+      "menu_id": 2919,
+      "option_types": [],
+      "sku": "25725",
+      "upc": null,
+      "plu": null,
+      "weight": null,
+      "print_group_printer_name": null,
+      "tax_inclusive": false,
+      "sides": [],
+      "toppings": [],
+      "upsales": [],
+      "parts": [],
+      "variants": [],
+      "modifiers": [{
+        "id": 1102,
+        "type": "multi_selection",
+        "name": "Alaskan Amber Toppings",
+        "require_selection": false,
+        "additional_price": null,
+        "limit_selection_to": null,
+        "options": [{
+          "id": 1454,
+          "name": "Aged Fromage",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2277,
+          "name": "Avocado",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1459,
+          "name": "bacon",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }, {
+        "id": 3555,
+        "type": "multi_selection",
+        "name": "Burgers Adds",
+        "require_selection": true,
+        "additional_price": null,
+        "limit_selection_to": 3,
+        "options": [{
+          "id": 2278,
+          "name": "All The Way Again",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2277,
+          "name": "Avocado",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1459,
+          "name": "bacon",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1458,
+          "name": "cheese",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2274,
+          "name": "Fries",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2273,
+          "name": "Jalape\u00f1os",
+          "price": "0.5",
+          "quantity": "1.0"
+        }, {
+          "id": 2270,
+          "name": "Ketchup",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2201,
+          "name": "Lettuce",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2276,
+          "name": "Mayonnaise",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2271,
+          "name": "Mustard",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 4050,
+          "name": "NO Tomato",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1457,
+          "name": "onion",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2275,
+          "name": "Onion Rings",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 3171,
+          "name": "only tomato",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2279,
+          "name": "Pickles",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2272,
+          "name": "Relish",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2200,
+          "name": "Tomatoes",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }],
+      "tax_rates": []
+    }, {
+      "id": 26047,
+      "price": "5.0",
+      "unit_price": "5.0",
+      "name": "Bees Burger",
+      "description": "",
+      "image_url": "",
+      "category_id": 442,
+      "menu_name": "Bees Burger",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": "Eat",
+      "reporting_group_id": 262,
+      "tax_rate": "0.1225",
+      "position": null,
+      "alcohol": false,
+      "state": "available",
+      "item_id": 26047,
+      "menu_id": 2040,
+      "option_types": [],
+      "sku": "26048",
+      "upc": null,
+      "plu": null,
+      "weight": null,
+      "print_group_printer_name": "HOT",
+      "tax_inclusive": false,
+      "sides": [],
+      "toppings": [{
+        "id": 33540,
+        "name": "All The Way Again",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33539,
+        "name": "Avocado",
+        "price": "1.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33541,
+        "name": "bacon",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33542,
+        "name": "cheese",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33543,
+        "name": "Fries",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33544,
+        "name": "Jalape\u00f1os",
+        "price": "0.5",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33545,
+        "name": "Ketchup",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33546,
+        "name": "Lettuce",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33547,
+        "name": "Mayonnaise",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33548,
+        "name": "Mustard",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33549,
+        "name": "NO Tomato",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33550,
+        "name": "onion",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33551,
+        "name": "Onion Rings",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33552,
+        "name": "only tomato",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33553,
+        "name": "Pickles",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33554,
+        "name": "Relish",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 33555,
+        "name": "Tomatoes",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }],
+      "upsales": [],
+      "parts": [],
+      "variants": [],
+      "modifiers": [{
+        "id": 3555,
+        "type": "multi_selection",
+        "name": "Burgers Adds",
+        "require_selection": true,
+        "additional_price": null,
+        "limit_selection_to": 3,
+        "options": [{
+          "id": 2278,
+          "name": "All The Way Again",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2277,
+          "name": "Avocado",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1459,
+          "name": "bacon",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1458,
+          "name": "cheese",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2274,
+          "name": "Fries",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2273,
+          "name": "Jalape\u00f1os",
+          "price": "0.5",
+          "quantity": "1.0"
+        }, {
+          "id": 2270,
+          "name": "Ketchup",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2201,
+          "name": "Lettuce",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2276,
+          "name": "Mayonnaise",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2271,
+          "name": "Mustard",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 4050,
+          "name": "NO Tomato",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1457,
+          "name": "onion",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2275,
+          "name": "Onion Rings",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 3171,
+          "name": "only tomato",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2279,
+          "name": "Pickles",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2272,
+          "name": "Relish",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2200,
+          "name": "Tomatoes",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }, {
+        "type": "exclusion",
+        "options": [{
+          "id": 6829,
+          "name": "Tomato"
+        }]
+      }],
+      "tax_rates": [{
+        "receipt_label": "Tax",
+        "rate": "0.0875"
+      }, {
+        "receipt_label": "Mob",
+        "rate": "0.035"
+      }]
+    }]
+  }, {
+    "id": 814,
+    "name": "Plush",
+    "limit": null,
+    "alcohol": false,
+    "position": 1,
+    "items": [{
+      "id": 26276,
+      "price": "90.0",
+      "unit_price": "90.0",
+      "name": "Andrey",
+      "description": "",
+      "image_url": "",
+      "category_id": 814,
+      "menu_name": "Andrey",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": "",
+      "reporting_group_id": null,
+      "tax_rate": "0.0",
+      "position": null,
+      "alcohol": false,
+      "state": "available",
+      "item_id": 26276,
+      "menu_id": 2919,
+      "option_types": ["andreys variant set"],
+      "sku": "26280",
+      "upc": null,
+      "plu": null,
+      "weight": null,
+      "print_group_printer_name": null,
+      "tax_inclusive": false,
+      "sides": [{
+        "id": 31537,
+        "name": "Aged Fromage",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 31535,
+        "name": "Avocado",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 31536,
+        "name": "bacon",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }],
+      "toppings": [{
+        "id": 31537,
+        "name": "Aged Fromage",
+        "price": "1.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 31535,
+        "name": "Avocado",
+        "price": "1.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }, {
+        "id": 31536,
+        "name": "bacon",
+        "price": "0.0",
+        "unit_of_measurement": null,
+        "quantity": "1.0"
+      }],
+      "upsales": [],
+      "parts": [],
+      "variants": [{
+        "id": 32583,
+        "sku": "26277",
+        "plu": null,
+        "upc": null,
+        "sale_price": "100.0",
+        "cost_price": null,
+        "position": null,
+        "item_id": 26276,
+        "values": {
+          "andreys variant set": "small andrey"
+        }
+      }, {
+        "id": 32584,
+        "sku": "26278",
+        "plu": null,
+        "upc": null,
+        "sale_price": "100.0",
+        "cost_price": null,
+        "position": null,
+        "item_id": 26276,
+        "values": {
+          "andreys variant set": "large andrey"
+        }
+      }, {
+        "id": 32585,
+        "sku": "26279",
+        "plu": null,
+        "upc": null,
+        "sale_price": "100.0",
+        "cost_price": null,
+        "position": null,
+        "item_id": 26276,
+        "values": {
+          "andreys variant set": "extra large andrey"
+        }
+      }],
+      "modifiers": [{
+        "id": 1102,
+        "type": "multi_selection",
+        "name": "Alaskan Amber Toppings",
+        "require_selection": false,
+        "additional_price": null,
+        "limit_selection_to": null,
+        "options": [{
+          "id": 1454,
+          "name": "Aged Fromage",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2277,
+          "name": "Avocado",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1459,
+          "name": "bacon",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }],
+      "tax_rates": []
+    }]
+  }, {
+    "id": 815,
+    "name": "Novelty",
+    "limit": null,
+    "alcohol": false,
+    "position": 1,
+    "items": [{
+      "id": 48954,
+      "price": "7.0",
+      "unit_price": "7.0",
+      "name": "Item with category A",
+      "description": null,
+      "image_url": "",
+      "category_id": 815,
+      "menu_name": "Item with category A",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": null,
+      "reporting_group_id": null,
+      "tax_rate": "0.0",
+      "position": 1,
+      "alcohol": false,
+      "state": "available",
+      "item_id": 48954,
+      "menu_id": 2040,
+      "option_types": [],
+      "sku": "48955",
+      "upc": null,
+      "plu": null,
+      "weight": 0,
+      "print_group_printer_name": "COLD",
+      "tax_inclusive": false,
+      "sides": [],
+      "toppings": [],
+      "upsales": [],
+      "parts": [],
+      "variants": [],
+      "modifiers": [],
+      "tax_rates": []
+    }]
+  }, {
+    "id": 1907,
+    "name": "102 Fries",
+    "limit": 1,
+    "alcohol": true,
+    "position": 1,
+    "items": [{
+      "id": 23322,
+      "price": "6000.0",
+      "unit_price": "6000.0",
+      "name": "best bread evar",
+      "description": "Necessarily expensive",
+      "image_url": "",
+      "category_id": 1907,
+      "menu_name": "best bread evar",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": null,
+      "reporting_group_id": null,
+      "tax_rate": "0.0",
+      "position": 1,
+      "alcohol": true,
+      "state": "available",
+      "item_id": 23322,
+      "menu_id": 2040,
+      "option_types": [],
+      "sku": "678",
+      "upc": null,
+      "plu": null,
+      "weight": 4,
+      "print_group_printer_name": "HOT",
+      "tax_inclusive": false,
+      "sides": [],
+      "toppings": [],
+      "upsales": [],
+      "parts": [],
+      "variants": [],
+      "modifiers": [{
+        "id": 1103,
+        "type": "multi_selection",
+        "name": "Alaskan Amber Sides",
+        "require_selection": false,
+        "additional_price": null,
+        "limit_selection_to": null,
+        "options": [{
+          "id": 9662,
+          "name": "Caprisun Fruit Punch",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 3136,
+          "name": "cheddar",
+          "price": "1.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1458,
+          "name": "cheese",
+          "price": "2.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1461,
+          "name": "corn",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 1452,
+          "name": "French sauce",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 2200,
+          "name": "Tomatoes",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }],
+      "tax_rates": []
+    }]
+  }, {
+    "id": 1407,
+    "name": "Alcohol",
+    "limit": null,
+    "alcohol": true,
+    "position": 6,
+    "items": [{
+      "id": 24993,
+      "price": "3.0",
+      "unit_price": "3.0",
+      "name": "Alaskan Summer",
+      "description": "",
+      "image_url": "",
+      "category_id": 1407,
+      "menu_name": "Alaskan Summer",
+      "archived": false,
+      "disabled": false,
+      "cancelled": false,
+      "catalog": "Alcohol",
+      "reporting_group_id": 263,
+      "tax_rate": "0.0",
+      "position": null,
+      "alcohol": true,
+      "state": "available",
+      "item_id": 24993,
+      "menu_id": 2040,
+      "option_types": [],
+      "sku": "24994",
+      "upc": null,
+      "plu": null,
+      "weight": null,
+      "print_group_printer_name": "COLD",
+      "tax_inclusive": false,
+      "sides": [{
+        "id": 32831,
+        "name": "Seat 1",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 32832,
+        "name": "Seat 2",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 32833,
+        "name": "Seat 3",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }, {
+        "id": 32834,
+        "name": "Seat 4",
+        "quantity": "1.0",
+        "unit_of_measurement": null
+      }],
+      "toppings": [],
+      "upsales": [],
+      "parts": [],
+      "variants": [],
+      "modifiers": [{
+        "id": 3513,
+        "type": "single_selection",
+        "name": "Seats",
+        "require_selection": true,
+        "additional_price": null,
+        "options": [{
+          "id": 4228,
+          "name": "Seat 1",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 4229,
+          "name": "Seat 2",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 4230,
+          "name": "Seat 3",
+          "price": "0.0",
+          "quantity": "1.0"
+        }, {
+          "id": 4231,
+          "name": "Seat 4",
+          "price": "0.0",
+          "quantity": "1.0"
+        }]
+      }],
+      "tax_rates": []
+    }]
+  }],
+  "meta": {
+    "incorporated_menu_ids": [2040, 2919]
+  }
+}

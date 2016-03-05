@@ -1,0 +1,6579 @@
+[
+   {
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "162ebcc5-09d7-47b0-907b-07217baad1dc",
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "name" : "123123",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 3677,
+      "description" : "",
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3677",
+      "has_inseat?" : false,
+      "auto_print_other" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "alcohol_on" : true,
+      "order_surcharge" : 5,
+      "inseat_surcharge_is_percentage" : false,
+      "inseat_order_surcharge" : 0,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : true,
+      "has_pickup?" : true,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : true
+   },
+   {
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3005",
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "open" : false,
+      "is_merchandise?" : false,
+      "status" : "closed",
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3005,
+      "inseat_surcharge_tax_rate" : 0,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "name" : "AAA Hawker Wing",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "f88fdb91-fc6b-41da-b032-824af7918ec2",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "has_pickup?" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "inseat_order_surcharge" : 0,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true
+   },
+   {
+      "id" : 3130,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "status" : "closed",
+      "is_merchandise?" : false,
+      "open" : false,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3130",
+      "auto_print_other" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "print_receipt_twice" : true,
+      "server_station_auto_logout_enabled" : false,
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "9ee874a9-3969-492c-b92a-5aa0cf2eee99",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card"
+      ],
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         }
+      ],
+      "name" : "aaaaaa",
+      "auto_print_cash" : true,
+      "signature_on_tablet" : false,
+      "has_pickup?" : true,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "inseat_order_surcharge" : 0
+   },
+   {
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-2192",
+      "has_inseat?" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : false,
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open",
+      "description" : "",
+      "id" : 2192,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "Arkansas Travelers",
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "4b10e609-69eb-476c-b3d0-2d5b3cdbf95f",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Quick Credit"
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "has_pickup?" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : true,
+      "inseat_order_surcharge" : 0,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true
+   },
+   {
+      "inseat_order_surcharge" : 10,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0.05,
+      "surcharge_is_percentage" : true,
+      "auto_print_credit" : true,
+      "allow_tips" : true,
+      "discount_options" : [
+         {
+            "amount" : null,
+            "percentage" : 0.25,
+            "name" : "Employee"
+         }
+      ],
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "has_pickup?" : false,
+      "name" : "Art",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         },
+         {
+            "friendly_name" : "External Credit Charged",
+            "type" : "custom_tender"
+         }
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Credit",
+         "External Credit Charged"
+      ],
+      "surcharge_tax_rate" : "1.2925",
+      "uuid" : "643c3fc8-597f-410f-95a9-9fe4b892b657",
+      "auto_print_remote_orders" : false,
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-929",
+      "has_inseat?" : true,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 929,
+      "inseat_surcharge_tax_rate" : "1.2925",
+      "description" : ""
+   },
+   {
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "has_pickup?" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "1378ab48-c12d-4565-8399-286dea3eb1e8",
+      "auto_print_remote_orders" : false,
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "asdf",
+      "description" : null,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 4827,
+      "inseat_surcharge_tax_rate" : 0,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-4827",
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true
+   },
+   {
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 792,
+      "inseat_surcharge_tax_rate" : 0,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : true,
+      "alcohol_closed" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-792",
+      "has_inseat?" : true,
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "1a8996aa-197b-4668-8e8f-63c2adf3b0ca",
+      "auto_print_remote_orders" : false,
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : true,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "Ballpark",
+      "has_pickup?" : false,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "allow_tips" : true,
+      "discount_options" : [
+         {
+            "amount" : null,
+            "name" : "10%",
+            "percentage" : 0.1
+         },
+         {
+            "name" : "25%",
+            "percentage" : 0.25,
+            "amount" : null
+         }
+      ],
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0
+   },
+   {
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "allow_tips" : true,
+      "discount_options" : [
+         {
+            "percentage" : 0.1,
+            "name" : "Employee Discount",
+            "amount" : null
+         }
+      ],
+      "auto_print_cash" : true,
+      "signature_on_tablet" : true,
+      "has_pickup?" : false,
+      "name" : "BWHQ Split Printing ELO",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "4ff0d3fb-99fd-495f-a6f1-6b6e5d4949a5",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-616",
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : true,
+      "alcohol_closed" : false,
+      "id" : 616,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : ""
+   },
+   {
+      "name" : "BWHQ USB Elo",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "a9d89cf1-412a-4bc4-8736-c59a288ae6f5",
+      "auto_print_remote_orders" : false,
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-614",
+      "has_inseat?" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "description" : "",
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 614,
+      "inseat_order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "has_pickup?" : false,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true
+   },
+   {
+      "inseat_surcharge_is_percentage" : true,
+      "order_surcharge" : 0.2,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0.15,
+      "has_pickup?" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : true,
+      "discount_options" : [
+         {
+            "percentage" : 0.1,
+            "name" : "10% Off",
+            "amount" : null
+         }
+      ],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : true,
+      "auto_print_credit" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit",
+         "$10",
+         "sudesh bucks",
+         "Poynt Payment",
+         "Ethan Bucks$1"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "26935d91-b6e7-4153-9bb5-a566cb248fb1",
+      "auto_print_remote_orders" : false,
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ]
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "$10",
+            "amount" : "10.0",
+            "type" : "custom_tender"
+         },
+         {
+            "friendly_name" : "sudesh bucks",
+            "type" : "custom_tender",
+            "amount" : "20.0"
+         },
+         {
+            "friendly_name" : "Poynt Payment",
+            "type" : "custom_tender"
+         },
+         {
+            "friendly_name" : "Ethan Bucks$1",
+            "amount" : "1.0",
+            "type" : "custom_tender"
+         }
+      ],
+      "name" : "Bypass Restaurant",
+      "description" : "Wake Forest restaurant experiment...",
+      "inseat_surcharge_tax_rate" : "1.2925",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 356,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Restaurant-356",
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true
+   },
+   {
+      "auto_print_credit" : true,
+      "surcharge_is_percentage" : true,
+      "allow_tips" : true,
+      "discount_options" : [],
+      "auto_print_cash" : true,
+      "signature_on_tablet" : true,
+      "has_pickup?" : false,
+      "inseat_order_surcharge" : 0.18,
+      "alcohol_on" : true,
+      "order_surcharge" : 0.18,
+      "inseat_surcharge_is_percentage" : true,
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Commissary-1675",
+      "has_inseat?" : true,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "inseat_surcharge_tax_rate" : "1.2925",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 1675,
+      "description" : "",
+      "name" : "Commissary",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "custom_tender",
+            "friendly_name" : "External Credit Charged"
+         }
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "uuid" : "390b0b70-6fcb-470e-a412-3f68aa948ced",
+      "surcharge_tax_rate" : "1.2925",
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit",
+         "External Credit Charged"
+      ]
+   },
+   {
+      "inseat_order_surcharge" : 0,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "has_pickup?" : true,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "name" : "Consumer Location",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         }
+      ],
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "515be5e3-f26c-433d-bd8c-dde58872e493",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Tab"
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-5247",
+      "has_inseat?" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "auto_print_other" : false,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "description" : null,
+      "id" : 5247,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0
+   },
+   {
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "has_pickup?" : false,
+      "auto_print_cash" : true,
+      "signature_on_tablet" : false,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "auto_print_credit" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "7ffc5049-68b9-4398-9ef9-1d5f155e52bd",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Tab",
+         "Tab No Card",
+         "Quick Credit"
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : true,
+      "name" : "D$ Restaurant",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "description" : "",
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3668,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Restaurant-3668",
+      "has_inseat?" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "auto_print_other" : true,
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true
+   },
+   {
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "has_pickup?" : true,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "ad8b5f66-1f51-4eb0-a6b8-7331f8aae27c",
+      "server_station_auto_logout_enabled" : true,
+      "print_receipt_twice" : true,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "name" : "Davide's Location",
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 3353,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "auto_print_other" : true,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3353",
+      "is_merchandise?" : true,
+      "status" : "closed",
+      "open" : false
+   },
+   {
+      "allow_tips" : false,
+      "discount_options" : [],
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "has_pickup?" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "inseat_order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3362",
+      "open" : false,
+      "is_merchandise?" : false,
+      "status" : "closed",
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3362,
+      "inseat_surcharge_tax_rate" : 0,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "Davide's Location 10",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "uuid" : "af1210bc-6aa4-4129-a2fd-d118ced78ce0",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false
+   },
+   {
+      "inseat_order_surcharge" : 0,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "has_pickup?" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "name" : "Davide's Location 11",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "uuid" : "3b731cdf-4f92-484d-8ebc-cb3970a07163",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3363",
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "open" : false,
+      "is_merchandise?" : false,
+      "status" : "closed",
+      "description" : "",
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3363
+   },
+   {
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "83b18267-1717-4264-9e47-e5c16d15a420",
+      "name" : "Davide's Location 12",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ]
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "id" : 3364,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "is_merchandise?" : false,
+      "status" : "closed",
+      "open" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3364",
+      "has_inseat?" : false,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "inseat_order_surcharge" : 0,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "has_pickup?" : false,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "discount_options" : [],
+      "allow_tips" : false
+   },
+   {
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "Davide's Location 2",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "b846afeb-e3e3-4ab9-b133-671411b92c64",
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "is_merchandise?" : false,
+      "open" : false,
+      "status" : "closed",
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3354",
+      "has_inseat?" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "id" : 3354,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "has_pickup?" : false
+   },
+   {
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "Davide's Location 3",
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "uuid" : "e2756008-3e67-4d6c-a9a8-26d71c14a1af",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "is_merchandise?" : false,
+      "status" : "closed",
+      "open" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3355",
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3355,
+      "description" : "",
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "has_pickup?" : false
+   },
+   {
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "Davide's Location 4",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "uuid" : "4bae1bce-4b8e-419c-a812-50441a02a3c3",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "status" : "closed",
+      "is_merchandise?" : false,
+      "open" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "auto_print_other" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3356",
+      "has_inseat?" : false,
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3356,
+      "description" : "",
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "has_pickup?" : false
+   },
+   {
+      "inseat_order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "has_pickup?" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "name" : "Davide's Location 5",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "4581e63c-3f86-49a9-83cd-39c49dae778a",
+      "auto_print_remote_orders" : false,
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "alcohol_closed" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3357",
+      "has_inseat?" : false,
+      "open" : false,
+      "is_merchandise?" : false,
+      "status" : "closed",
+      "description" : "",
+      "id" : 3357,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0
+   },
+   {
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "38248a84-40e9-415b-b6df-e5e3d254a607",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "name" : "Davide's Location 6",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3358,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "status" : "closed",
+      "is_merchandise?" : false,
+      "open" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3358",
+      "has_inseat?" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "alcohol_closed" : false,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "inseat_order_surcharge" : 0,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "has_pickup?" : false,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : false
+   },
+   {
+      "name" : "Davide's Location 7",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "967a8441-54fe-4774-b9d0-b75d191f6014",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3359",
+      "has_inseat?" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "open" : false,
+      "is_merchandise?" : false,
+      "status" : "closed",
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3359,
+      "inseat_surcharge_tax_rate" : 0,
+      "inseat_order_surcharge" : 0,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "has_pickup?" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false
+   },
+   {
+      "name" : "Davide's Location 8",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "17eaf7e3-96c8-4e0b-b895-3304016ac7b3",
+      "auto_print_remote_orders" : false,
+      "status" : "closed",
+      "is_merchandise?" : false,
+      "open" : false,
+      "auto_print_other" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3360",
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3360,
+      "description" : "",
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "has_pickup?" : false
+   },
+   {
+      "is_merchandise?" : false,
+      "open" : false,
+      "status" : "closed",
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3361",
+      "has_inseat?" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3361,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "Davide's Location 9",
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "c9a7466d-1b23-4c10-bded-572da077f00b",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "has_pickup?" : false,
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false
+   },
+   {
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-320",
+      "has_inseat?" : true,
+      "inseat_surcharge_tax_rate" : "1.2925",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 320,
+      "description" : "It's pronounced, deeemo...",
+      "name" : "Demo Booth",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         },
+         {
+            "amount" : "10.0",
+            "type" : "custom_tender",
+            "friendly_name" : "$10"
+         },
+         {
+            "type" : "custom_tender",
+            "amount" : "20.0",
+            "friendly_name" : "sudesh bucks"
+         },
+         {
+            "type" : "custom_tender",
+            "friendly_name" : "LOOOOOVE ME"
+         }
+      ],
+      "print_receipt_twice" : true,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit",
+         "$10",
+         "sudesh bucks",
+         "LOOOOOVE ME"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "a24b42fb-8dc1-4764-be53-6ec1d22b65dc",
+      "auto_print_remote_orders" : false,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "allow_tips" : true,
+      "discount_options" : [
+         {
+            "name" : "Dollar Amount",
+            "percentage" : null,
+            "amount" : 1
+         },
+         {
+            "amount" : null,
+            "name" : "10%",
+            "percentage" : 0.1
+         },
+         {
+            "percentage" : 0.5,
+            "name" : "damaged",
+            "amount" : null
+         },
+         {
+            "amount" : null,
+            "percentage" : 0.5,
+            "name" : "Wheeler VIP"
+         },
+         {
+            "name" : "Test 100%",
+            "percentage" : 1,
+            "amount" : null
+         }
+      ],
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "has_pickup?" : false,
+      "inseat_order_surcharge" : 0.15,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : true,
+      "order_surcharge" : 0
+   },
+   {
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Restaurant-2045",
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : null,
+      "id" : 2045,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "name" : "DOGE",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : null,
+      "uuid" : "9fdc0e9b-6bf1-456c-b8bc-d77808e31666",
+      "tender_accepted" : [
+         "Cash",
+         "Credit"
+      ],
+      "auto_print_credit" : null,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "auto_print_cash" : null,
+      "signature_on_tablet" : false,
+      "has_pickup?" : false,
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false
+   },
+   {
+      "has_pickup?" : true,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "inseat_surcharge_is_percentage" : true,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0.1,
+      "description" : "",
+      "id" : 2613,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Commissary-2613",
+      "has_inseat?" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit",
+         "External Credit Charged"
+      ],
+      "uuid" : "cf97b5df-3bac-450e-930f-508d0cd6b9fa",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "External Credit Charged",
+            "type" : "custom_tender"
+         }
+      ],
+      "name" : "Drey Commissary for Suites"
+   },
+   {
+      "description" : null,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 3678,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3678",
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Tab",
+         "Stored Value",
+         "External Credit Charged",
+         "Quick Cash",
+         "Quick Credit",
+         "Tab No Card",
+         "Account",
+         "Ethan Bucks$1",
+         "$10"
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "5a587e8a-ce34-42fe-957a-f206370bce2c",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "name" : "Drey Location Concession",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "custom_tender",
+            "friendly_name" : "External Credit Charged"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "type" : "custom_tender",
+            "amount" : "1.0",
+            "friendly_name" : "Ethan Bucks$1"
+         },
+         {
+            "amount" : "10.0",
+            "type" : "custom_tender",
+            "friendly_name" : "$10"
+         }
+      ],
+      "has_pickup?" : true,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0
+   },
+   {
+      "inseat_order_surcharge" : 0,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "allow_tips" : true,
+      "discount_options" : [],
+      "auto_print_credit" : true,
+      "surcharge_is_percentage" : false,
+      "has_pickup?" : true,
+      "auto_print_cash" : true,
+      "signature_on_tablet" : true,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         },
+         {
+            "type" : "custom_tender",
+            "friendly_name" : "External Credit Charged"
+         }
+      ],
+      "name" : "dreyTest",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "d3ec36fa-5c11-4556-9611-ab532b95620c",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Quick Cash",
+         "Quick Credit",
+         "External Credit Charged"
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-2717",
+      "has_inseat?" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "auto_print_other" : true,
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 2717
+   },
+   {
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Quick Cash",
+         "Quick Credit",
+         "Credit"
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "db01097f-a479-4afb-8a18-e0cf83fb4103",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         }
+      ],
+      "name" : "Ethan's Pub",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 2216,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "Only happiness in here",
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "auto_print_other" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Restaurant-2216",
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "inseat_order_surcharge" : 0,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : false,
+      "has_pickup?" : false,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "allow_tips" : false,
+      "discount_options" : []
+   },
+   {
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : true,
+      "has_pickup?" : false,
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open",
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-2920",
+      "has_inseat?" : false,
+      "auto_print_other" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 2920,
+      "description" : "",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ]
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "name" : "GM Centre",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "uuid" : "e9d6ccfc-bdce-49cb-9ffb-a17555537a62",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Quick Credit"
+      ]
+   },
+   {
+      "allow_tips" : false,
+      "discount_options" : [],
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "has_pickup?" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : true,
+      "inseat_order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3114",
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "description" : "",
+      "id" : 3114,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ]
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         }
+      ],
+      "name" : "Hamburger Uno",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card"
+      ],
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "fbdabdaf-2cfe-4cad-ac75-226b16aaf19c",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false
+   },
+   {
+      "print_receipt_twice" : true,
+      "server_station_auto_logout_enabled" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Quick Cash",
+         "Quick Credit",
+         "Tab",
+         "Stored Value",
+         "Tab No Card",
+         "Account"
+      ],
+      "uuid" : "53b2a007-e80a-4c75-a404-2e3afc8347d2",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account"
+         }
+      ],
+      "name" : "Jims Test Location",
+      "id" : 4449,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : null,
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : true,
+      "alcohol_closed" : false,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-4449",
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "inseat_order_surcharge" : 0,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "has_pickup?" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "discount_options" : [],
+      "allow_tips" : true
+   },
+   {
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "has_pickup?" : false,
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3523",
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3523,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "name" : "Josh's Location",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "6343dc5d-0a9d-4c7b-a62e-500435fb3119",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ]
+   },
+   {
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "3f0e9e61-b367-4417-a224-c182c128729c",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "name" : "PAMC San Francisco",
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 2499,
+      "description" : "",
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-2499",
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "inseat_order_surcharge" : 0,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "has_pickup?" : false,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "allow_tips" : true,
+      "discount_options" : []
+   },
+   {
+      "discount_options" : [
+         {
+            "amount" : null,
+            "name" : "suites",
+            "percentage" : 1
+         },
+         {
+            "name" : "employee",
+            "percentage" : 1,
+            "amount" : null
+         }
+      ],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "has_pickup?" : true,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "inseat_order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : true,
+      "alcohol_closed" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-579",
+      "has_inseat?" : false,
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 579,
+      "inseat_surcharge_tax_rate" : 0,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "friendly_name" : "External Credit Charged",
+            "type" : "custom_tender"
+         },
+         {
+            "friendly_name" : "$10",
+            "type" : "custom_tender",
+            "amount" : "10.0"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         },
+         {
+            "type" : "custom_tender",
+            "amount" : "1.0",
+            "friendly_name" : "Ethan Bucks$1"
+         }
+      ],
+      "name" : "parking",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "External Credit Charged",
+         "$10",
+         "Quick Cash",
+         "Quick Credit",
+         "Ethan Bucks$1"
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "1d76cc7e-c2c6-477f-ac3a-e79e46203986",
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false
+   },
+   {
+      "order_surcharge" : 0.1,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "has_pickup?" : false,
+      "auto_print_cash" : true,
+      "signature_on_tablet" : false,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "auto_print_credit" : true,
+      "surcharge_is_percentage" : true,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "e6746963-33fd-4c52-baa4-a766c63e7efd",
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Tab"
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         }
+      ],
+      "name" : "PortBar Torchys",
+      "description" : "",
+      "id" : 3607,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3607",
+      "has_inseat?" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : true,
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open"
+   },
+   {
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "auto_print_other" : true,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-2297",
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 2297,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         }
+      ],
+      "name" : "QA Only Do Not Remove or Modify Settings",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "98bc3a1f-5242-4cfb-b265-c27ec4a81df5",
+      "auto_print_remote_orders" : false,
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "has_pickup?" : true,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "inseat_order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true
+   },
+   {
+      "has_pickup?" : true,
+      "auto_print_cash" : true,
+      "signature_on_tablet" : true,
+      "discount_options" : [
+         {
+            "name" : "Daniel",
+            "percentage" : null,
+            "amount" : 1
+         },
+         {
+            "percentage" : null,
+            "name" : "$5",
+            "amount" : 5
+         },
+         {
+            "name" : "10%",
+            "percentage" : 0.1,
+            "amount" : null
+         },
+         {
+            "percentage" : 1,
+            "name" : "100%",
+            "amount" : null
+         }
+      ],
+      "allow_tips" : true,
+      "auto_print_credit" : true,
+      "surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "description" : "Please don't modify settings Never",
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 319,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-319",
+      "has_inseat?" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : true,
+      "alcohol_closed" : false,
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "surcharge_tax_rate" : 0,
+      "uuid" : "06569502-b103-4b01-bca8-c929734b7325",
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit",
+         "External Credit Charged",
+         "Ethan Bucks$1",
+         "$10",
+         "Poynt Payment",
+         "sudesh bucks"
+      ],
+      "server_station_auto_logout_enabled" : true,
+      "print_receipt_twice" : false,
+      "name" : "Refrigerator QA only",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "type" : "account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Quick Credit"
+         },
+         {
+            "friendly_name" : "External Credit Charged",
+            "type" : "custom_tender"
+         },
+         {
+            "amount" : "1.0",
+            "type" : "custom_tender",
+            "friendly_name" : "Ethan Bucks$1"
+         },
+         {
+            "friendly_name" : "$10",
+            "type" : "custom_tender",
+            "amount" : "10.0"
+         },
+         {
+            "type" : "custom_tender",
+            "friendly_name" : "Poynt Payment"
+         },
+         {
+            "type" : "custom_tender",
+            "amount" : "20.0",
+            "friendly_name" : "sudesh bucks"
+         }
+      ]
+   },
+   {
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 1894,
+      "description" : "",
+      "is_merchandise?" : false,
+      "status" : "open",
+      "open" : true,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Restaurant-1894",
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "uuid" : "26c15b82-5211-4f44-abc3-5d6962ff7a4e",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : true,
+      "name" : "Restaurant Trial",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "name" : "test1",
+                  "id" : 514
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "friendly_name" : "Quick Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "has_pickup?" : false,
+      "surcharge_is_percentage" : true,
+      "auto_print_credit" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : true,
+      "order_surcharge" : 0.0812,
+      "inseat_order_surcharge" : 0.0812
+   },
+   {
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "has_pickup?" : false,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "allow_tips" : true,
+      "discount_options" : [
+         {
+            "amount" : null,
+            "name" : "10%",
+            "percentage" : 0.1
+         },
+         {
+            "name" : "25%",
+            "percentage" : 0.25,
+            "amount" : null
+         },
+         {
+            "amount" : null,
+            "name" : "50%",
+            "percentage" : 0.5
+         },
+         {
+            "amount" : null,
+            "percentage" : 1,
+            "name" : "100%"
+         }
+      ],
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit",
+         "External Credit Charged"
+      ],
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "81d0b03d-5c81-4b9e-8863-af2ede8d2ff7",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : true,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "custom_tender",
+            "friendly_name" : "External Credit Charged"
+         }
+      ],
+      "name" : "Seriously Only QA - Consession",
+      "description" : "For QA use only. We're serious this time.",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 2554,
+      "inseat_surcharge_tax_rate" : 0,
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-2554",
+      "has_inseat?" : true,
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open"
+   },
+   {
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 3628,
+      "description" : "asd",
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "auto_print_other" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "alcohol_closed" : false,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-3628",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "1e82317e-7ce9-47cb-a409-3e271b9b90f3",
+      "name" : "Steve test concession",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "has_pickup?" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "allow_tips" : true,
+      "discount_options" : [],
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "inseat_order_surcharge" : 0
+   },
+   {
+      "name" : "Suites Kitchen",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "External Credit Charged",
+            "type" : "custom_tender"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : true,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "31ab44d4-f956-4489-afa9-4549d697f045",
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Stored Value",
+         "Tab",
+         "External Credit Charged",
+         "Credit"
+      ],
+      "status" : "open",
+      "is_merchandise?" : false,
+      "open" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Commissary-2376",
+      "has_inseat?" : true,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "alcohol_closed" : false,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 2376,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : true,
+      "has_pickup?" : false
+   },
+   {
+      "name" : "Test Reports",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         }
+      ],
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "uuid" : "2d2c456c-a4a8-4b62-8ef7-a89b8d98dc99",
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card"
+      ],
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open",
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-1190",
+      "allow_print_order_taker_tips_report" : true,
+      "alcohol_closed" : false,
+      "auto_print_other" : true,
+      "id" : 1190,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "Test reporting",
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "auto_print_cash" : true,
+      "signature_on_tablet" : true,
+      "has_pickup?" : true
+   },
+   {
+      "has_pickup?" : false,
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3046,
+      "inseat_surcharge_tax_rate" : 0,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "alcohol_closed" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-VendingRoom-3046",
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open",
+      "tender_accepted" : [
+         "Cash",
+         "Tab",
+         "Tab No Card"
+      ],
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "c3c02f87-247d-49ed-a348-8be0d40309ed",
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         }
+      ],
+      "name" : "Test Vending Room"
+   },
+   {
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "has_pickup?" : true,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "discount_options" : [
+         {
+            "amount" : null,
+            "percentage" : 0.3,
+            "name" : "30"
+         }
+      ],
+      "allow_tips" : true,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card"
+      ],
+      "surcharge_tax_rate" : 0,
+      "auto_print_remote_orders" : false,
+      "uuid" : "46ae8f4c-f7fd-44bb-bb30-6873cb5ff6f8",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         }
+      ],
+      "name" : "Test_Prod_Concession",
+      "description" : "",
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "id" : 600,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-600",
+      "has_inseat?" : false,
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open"
+   },
+   {
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "e2b57a10-074d-49bb-968d-5f3dc00849db",
+      "auto_print_remote_orders" : null,
+      "name" : "The Banana Stand",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "id" : 231,
+                  "name" : "11"
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "id" : 517,
+                  "name" : "test4"
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "name" : "test8",
+                  "id" : 521
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ],
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 1925,
+      "description" : "There Always Money in Here",
+      "status" : "closed",
+      "is_merchandise?" : false,
+      "open" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : null,
+      "alcohol_closed" : true,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-1925",
+      "alcohol_on" : false,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "inseat_order_surcharge" : 0,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : null,
+      "has_pickup?" : false,
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : null,
+      "allow_tips" : true,
+      "discount_options" : []
+   },
+   {
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "name" : "test10",
+                  "id" : 523
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ]
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         }
+      ],
+      "name" : "The Shrine",
+      "surcharge_tax_rate" : 0,
+      "uuid" : "d82c7ea4-db63-4c71-87d9-c7f79b1be8c1",
+      "auto_print_remote_orders" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab"
+      ],
+      "server_station_auto_logout_enabled" : false,
+      "print_receipt_twice" : false,
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-2311",
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : false,
+      "alcohol_closed" : false,
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "description" : "",
+      "inseat_surcharge_tax_rate" : 0,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 2311,
+      "inseat_order_surcharge" : 0,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "alcohol_on" : true,
+      "discount_options" : [],
+      "allow_tips" : true,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "has_pickup?" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : true
+   },
+   {
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "signature_on_tablet" : false,
+      "auto_print_cash" : false,
+      "has_pickup?" : false,
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "is_merchandise?" : false,
+      "open" : true,
+      "status" : "open",
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : false,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-VendingRoom-3047",
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3047,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         }
+      ],
+      "name" : "Walken Way",
+      "print_receipt_twice" : false,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Stored Value",
+         "Tab",
+         "Tab No Card"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "5cb87ff7-b900-4f7b-969e-a712742c7636",
+      "auto_print_remote_orders" : false
+   },
+   {
+      "inseat_surcharge_is_percentage" : false,
+      "order_surcharge" : 0,
+      "alcohol_on" : true,
+      "inseat_order_surcharge" : 0,
+      "has_pickup?" : true,
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "allow_tips" : false,
+      "discount_options" : [],
+      "surcharge_is_percentage" : false,
+      "auto_print_credit" : true,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit",
+         "External Credit Charged"
+      ],
+      "surcharge_tax_rate" : 0,
+      "uuid" : "de618797-b0b4-4228-bec3-ee127ec3a05f",
+      "auto_print_remote_orders" : false,
+      "print_receipt_twice" : true,
+      "server_station_auto_logout_enabled" : false,
+      "tenders_accepted" : [
+         {
+            "type" : "cash",
+            "friendly_name" : "Cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "type" : "account",
+            "friendly_name" : "Account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "id" : 233,
+                  "name" : "33"
+               },
+               {
+                  "name" : "44",
+                  "id" : 234
+               },
+               {
+                  "id" : 235,
+                  "name" : "55"
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "id" : 518,
+                  "name" : "test5"
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ]
+         },
+         {
+            "friendly_name" : "Tab",
+            "type" : "authorization"
+         },
+         {
+            "friendly_name" : "Tab No Card",
+            "type" : "authorization_unsecured"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         },
+         {
+            "type" : "custom_tender",
+            "friendly_name" : "External Credit Charged"
+         }
+      ],
+      "name" : "wen's testing",
+      "description" : "",
+      "id" : 3117,
+      "server_station_auto_logout_timeout" : 60,
+      "inseat_surcharge_tax_rate" : 0,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "has_inseat?" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-VendingRoom-3117",
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open"
+   },
+   {
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "type" : "credit_card",
+            "friendly_name" : "Credit"
+         },
+         {
+            "type" : "stored_value",
+            "friendly_name" : "Stored Value"
+         },
+         {
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "id" : 232,
+                  "name" : "22"
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "name" : "66",
+                  "id" : 236
+               },
+               {
+                  "name" : "77",
+                  "id" : 237
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "id" : 515,
+                  "name" : "test2"
+               },
+               {
+                  "id" : 516,
+                  "name" : "test3"
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "id" : 519,
+                  "name" : "test6"
+               },
+               {
+                  "name" : "test7",
+                  "id" : 520
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "id" : 522,
+                  "name" : "test9"
+               }
+            ],
+            "friendly_name" : "Account",
+            "type" : "account"
+         }
+      ],
+      "name" : "wen's testing location Jun 24/2015",
+      "print_receipt_twice" : true,
+      "server_station_auto_logout_enabled" : false,
+      "auto_print_remote_orders" : false,
+      "surcharge_tax_rate" : 0,
+      "uuid" : "5ab1bec8-d76c-4fb5-bb6a-3790960b1a2c",
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account"
+      ],
+      "open" : true,
+      "is_merchandise?" : false,
+      "status" : "open",
+      "has_inseat?" : false,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-VendingRoom-3280",
+      "allow_print_order_taker_tips_report" : false,
+      "auto_print_other" : false,
+      "alcohol_closed" : false,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 3280,
+      "inseat_surcharge_tax_rate" : 0,
+      "description" : "",
+      "inseat_order_surcharge" : 0,
+      "alcohol_on" : true,
+      "order_surcharge" : 0,
+      "inseat_surcharge_is_percentage" : false,
+      "auto_print_credit" : false,
+      "surcharge_is_percentage" : false,
+      "discount_options" : [],
+      "allow_tips" : false,
+      "auto_print_cash" : false,
+      "signature_on_tablet" : false,
+      "has_pickup?" : false
+   },
+   {
+      "signature_on_tablet" : true,
+      "auto_print_cash" : true,
+      "has_pickup?" : true,
+      "surcharge_is_percentage" : null,
+      "auto_print_credit" : true,
+      "allow_tips" : false,
+      "discount_options" : [
+         {
+            "amount" : null,
+            "name" : "100% Discount",
+            "percentage" : 1
+         }
+      ],
+      "alcohol_on" : true,
+      "inseat_surcharge_is_percentage" : null,
+      "order_surcharge" : 10,
+      "inseat_order_surcharge" : 3,
+      "server_station_auto_logout_timeout" : 60,
+      "id" : 1191,
+      "inseat_surcharge_tax_rate" : "1.2925",
+      "description" : "",
+      "status" : "closed",
+      "is_merchandise?" : true,
+      "open" : false,
+      "alcohol_closed" : false,
+      "allow_print_order_taker_tips_report" : true,
+      "auto_print_other" : true,
+      "sqs_queue_url" : "https://sqs.us-east-1.amazonaws.com/234175905574/production-Concession-1191",
+      "has_inseat?" : true,
+      "print_receipt_twice" : true,
+      "server_station_auto_logout_enabled" : false,
+      "tender_accepted" : [
+         "Cash",
+         "Credit",
+         "Stored Value",
+         "Account",
+         "Tab",
+         "Tab No Card",
+         "Quick Cash",
+         "Quick Credit"
+      ],
+      "uuid" : "018e23b1-cbd2-4863-b98a-ba0b51503a89",
+      "surcharge_tax_rate" : "1.2925",
+      "auto_print_remote_orders" : true,
+      "name" : "Whitney Is So Nice",
+      "tenders_accepted" : [
+         {
+            "friendly_name" : "Cash",
+            "type" : "cash"
+         },
+         {
+            "friendly_name" : "Credit",
+            "type" : "credit_card"
+         },
+         {
+            "friendly_name" : "Stored Value",
+            "type" : "stored_value"
+         },
+         {
+            "type" : "account",
+            "accounts" : [
+               {
+                  "name" : "11",
+                  "id" : 231
+               },
+               {
+                  "name" : "22",
+                  "id" : 232
+               },
+               {
+                  "name" : "33",
+                  "id" : 233
+               },
+               {
+                  "id" : 234,
+                  "name" : "44"
+               },
+               {
+                  "name" : "55",
+                  "id" : 235
+               },
+               {
+                  "id" : 236,
+                  "name" : "66"
+               },
+               {
+                  "id" : 237,
+                  "name" : "77"
+               },
+               {
+                  "id" : 514,
+                  "name" : "test1"
+               },
+               {
+                  "id" : 523,
+                  "name" : "test10"
+               },
+               {
+                  "name" : "test2",
+                  "id" : 515
+               },
+               {
+                  "name" : "test3",
+                  "id" : 516
+               },
+               {
+                  "name" : "test4",
+                  "id" : 517
+               },
+               {
+                  "name" : "test5",
+                  "id" : 518
+               },
+               {
+                  "name" : "test6",
+                  "id" : 519
+               },
+               {
+                  "id" : 520,
+                  "name" : "test7"
+               },
+               {
+                  "id" : 521,
+                  "name" : "test8"
+               },
+               {
+                  "name" : "test9",
+                  "id" : 522
+               }
+            ],
+            "friendly_name" : "Account"
+         },
+         {
+            "type" : "authorization",
+            "friendly_name" : "Tab"
+         },
+         {
+            "type" : "authorization_unsecured",
+            "friendly_name" : "Tab No Card"
+         },
+         {
+            "type" : "cash",
+            "friendly_name" : "Quick Cash"
+         },
+         {
+            "friendly_name" : "Quick Credit",
+            "type" : "credit_card"
+         }
+      ]
+   }
+]
