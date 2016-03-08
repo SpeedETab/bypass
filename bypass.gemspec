@@ -9,8 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Damon Davison"]
   spec.email         = ["damon@curatur.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.license       = "Nonstandard"
+  spec.summary       = "Integration gem for the Bypass API"
+  spec.description   = "This gem is used to integrate the Bypass API for menus and concessions."
   spec.homepage      = "http://www.speedetab.com"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
