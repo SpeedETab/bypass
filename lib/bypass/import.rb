@@ -1,9 +1,9 @@
 require_relative 'concession_collection'
 
-class ImportError < StandardError
-end
-
 module Bypass
+  class ImportError < StandardError
+  end
+
   class Import
     def self.concession(key = default_key)
       response = client(key: key).get do |req|
@@ -11,7 +11,7 @@ module Bypass
       end
 
       if response.success?
-       p ConcessionCollection.new(response.body).params
+        ConcessionCollection.new(response.body).params
       else
         import_error "Concessions"
       end
