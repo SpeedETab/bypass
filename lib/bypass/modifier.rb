@@ -1,4 +1,3 @@
-require 'pry'
 require_relative 'option_collection'
 
 module Bypass

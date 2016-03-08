@@ -1,5 +1,3 @@
-require 'pry'
-
 module Bypass
   class Option
     attr_reader :id, :name, :price, :quantity
