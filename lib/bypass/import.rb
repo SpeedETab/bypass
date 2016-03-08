@@ -30,7 +30,7 @@ module Bypass
       if response.success?
         Menu.new(menu: response.body, concession_id: cid)
       else
-        import_error "Menu #{concession_id}", response
+        import_error "Menu #{cid}", response
       end
     end
 
