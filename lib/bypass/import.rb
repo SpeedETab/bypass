@@ -12,7 +12,7 @@ module Bypass
       end
 
       if response.success?
-        ConcessionCollection.new(response.body).params
+        ConcessionCollection.new(response.body)
       else
         import_error "Concessions", response
       end
