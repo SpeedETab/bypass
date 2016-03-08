@@ -1,4 +1,5 @@
 require_relative 'menu'
+require 'pry'
 
 module Bypass
   class Concession
@@ -7,7 +8,7 @@ module Bypass
     def initialize(location)
       @id   = location["id"].to_i
       @name = location["name"]
-      @menu = get_menu
+      @menu = Import.menu concession_id: id
     end
 
     def inspect
@@ -24,12 +25,6 @@ module Bypass
         name: name,
         menu: menu.params
       }
-    end
-
-    private
-
-    def get_menu
-      Menu.new(JSON.parse(Import.menu id), concession_id: id)
     end
   end
 end

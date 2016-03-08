@@ -1,3 +1,5 @@
+require 'pry'
+
 module Bypass
   module Collectible
     include Enumerable
@@ -5,13 +7,11 @@ module Bypass
     attr_reader :members
 
     def initialize(list)
-      @members = []
-
-      list.each do |item|
-        @members << member_class.new(item)
+      if list.respond_to? :each
+        @members = list.map { |item| member_class.new(item) }
+      else
+        @members = []
       end
-
-      self
     end
 
     def each(&block)

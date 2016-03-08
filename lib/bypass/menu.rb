@@ -4,10 +4,10 @@ module Bypass
   class Menu
     attr_reader :concession_id, :meta, :categories
 
-    def initialize(menu_hash, opts = {})
+    def initialize(opts = {})
       @concession_id = opts.fetch(:concession_id)
-      @meta = menu_hash["meta"]
-      @categories = CategoryCollection.new(menu_hash["categories"])
+      @meta = opts[:menu]["meta"]
+      @categories = CategoryCollection.new(opts[:menu]["categories"])
     end
 
     def inspect

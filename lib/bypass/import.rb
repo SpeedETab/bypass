@@ -1,4 +1,5 @@
 require_relative 'concession_collection'
+require 'faraday'
 
 module Bypass
   class ImportError < StandardError
@@ -17,14 +18,17 @@ module Bypass
       end
     end
 
-    def self.menu(key = default_key, concession_id)
+    def self.menu(opts = {})
+      cid = opts.fetch :concession_id
+      key = opts[:key] || default_key
+
       response = client(key: key).get do |req|
         req.headers
-        req.url menu_url(concession_id)
+        req.url menu_url(cid)
       end
 
       if response.success?
-        Menu.new(response.body, concession_id: concession_id)
+        Menu.new(menu: response.body, concession_id: cid)
       else
         import_error "Menu #{concession_id}", response
       end
