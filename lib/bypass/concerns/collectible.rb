@@ -1,14 +1,17 @@
 module Bypass
   module Collectible
     include Enumerable
-    
+
     attr_reader :members
 
     def initialize(list)
       @members = []
+
       list.each do |item|
         @members << member_class.new(item)
       end
+
+      self
     end
 
     def each(&block)
