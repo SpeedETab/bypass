@@ -59,7 +59,7 @@ module Bypass
     def self.default_headers
       {
         'Accept' => 'application/json',
-
+        'X-BYPASS-API-KEY' => ENV['BYPASS_API_TOKEN'] || nil
       }
     end
 
