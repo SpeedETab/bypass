@@ -13,7 +13,7 @@ module Bypass
       if response.success?
         ConcessionCollection.new(response.body).params
       else
-        import_error "Concessions"
+        import_error "Concessions", response
       end
     end
 
@@ -26,7 +26,7 @@ module Bypass
       if response.success?
         Menu.new(response.body, concession_id: concession_id)
       else
-        import_error "Menu #{concession_id}"
+        import_error "Menu #{concession_id}", response
       end
     end
 
@@ -47,7 +47,7 @@ module Bypass
       ENV['BYPASS_API_HOST'] || "https://data.bypassmobile.com"
     end
 
-    def self.import_error(item)
+    def self.import_error(item, response)
       raise Bypass::ImportError,
             "#{item}: #{error_message(response)}"
     end
