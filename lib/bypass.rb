@@ -1,7 +1,6 @@
 require 'json'
 require 'faraday'
 require 'faraday_middleware'
-require 'awesome_print'
 
 require_relative 'bypass/import'
 require_relative 'bypass/menu'
