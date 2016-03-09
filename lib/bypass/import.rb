@@ -6,7 +6,9 @@ module Bypass
   end
 
   class Import
-    def self.concession(key = default_key)
+    def self.concession(opts = {})
+      key = opts.fetch(:key, default_key)
+
       response = client(key: key).get do |req|
         req.url concessions_url
       end
