@@ -1,5 +1,3 @@
-require 'pry'
-
 module Bypass
   module Collectible
     include Enumerable

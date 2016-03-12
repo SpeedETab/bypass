@@ -1,5 +1,4 @@
 require_relative 'menu'
-require 'pry'
 
 module Bypass
   class Concession
