@@ -7,7 +7,7 @@ module Bypass
     def initialize(opts = {})
       @concession_id = opts.fetch(:concession_id)
       @meta = opts[:menu]["meta"]
-      @categories = CategoryCollection.new JSON.parse(opts[:menu])["categories"]
+      @categories = CategoryCollection.new category_args_from_menu(opts[:menu])
     end
 
     def inspect
@@ -24,6 +24,14 @@ module Bypass
         meta: meta,
         categories: categories.params
       }
+    end
+
+    def category_args_from_menu(menu)
+      parsed_menu = JSON.parse(menu)
+      parsed_menu["categories"]
+    rescue ArgumentError => e
+      STDERR.puts "#{self.class.name} could not parse #{menu.inspect}"
+      raise e
     end
   end
 end
