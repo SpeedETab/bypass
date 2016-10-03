@@ -22,7 +22,7 @@ module Bypass
 
     def self.menu(opts = {})
       cid = opts.fetch :concession_id
-      key = opts[:key] || default_key
+      key = opts.fetch :key, default_key
 
       response = client(key: key).get do |req|
         req.headers
@@ -32,7 +32,7 @@ module Bypass
       if response.success?
         Menu.new(menu: response.body, concession_id: cid)
       else
-        Rails.logger.warn "Menu #{cid}: (#{response.status}) #{response.inspect}"
+        import_error "Menu #{cid}", response
       end
     end
 
