@@ -32,7 +32,7 @@ module Bypass
       if response.success?
         Menu.new(menu: response.body, concession_id: cid)
       else
-        import_error "Menu #{cid}", response
+        Rails.logger.warn "Menu #{cid}: (#{response.status}) #{response.inspect}"
       end
     end
 

@@ -8,6 +8,9 @@ module Bypass
       @id   = location["id"].to_i
       @name = location["name"]
       @menu = Import.menu concession_id: id
+    rescue Bypass::ImportError => e
+      Rails.logger.warn "Menu #{id} could not be imported: #{e.message}"
+      @menu = {}
     end
 
     def inspect
