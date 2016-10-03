@@ -2,7 +2,7 @@ require_relative 'menu'
 
 module Bypass
   class Concession
-    attr_reader :id, :name, :menu
+    attr_reader :id, :name
 
     def initialize(location)
       @id   = location["id"].to_i
@@ -11,6 +11,9 @@ module Bypass
 
     def menu
       @menu ||= Import.menu(concession_id: id)
+    rescue ImportError
+      Rails.logger.warn "Menu import error for concession #{id}"
+      @menu = {}
     end
 
     def inspect
