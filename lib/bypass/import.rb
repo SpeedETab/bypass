@@ -30,6 +30,7 @@ module Bypass
       end
 
       if response.success?
+        Rails.logger.info "Successful menu download: #{response.inspect}."
         Menu.new(menu: response.body, concession_id: cid)
       else
         import_error "Menu #{cid}", response

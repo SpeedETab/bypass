@@ -7,7 +7,8 @@ module Bypass
     def initialize(opts = {})
       @concession_id = opts.fetch(:concession_id)
       @meta = opts[:menu]["meta"]
-      @categories = CategoryCollection.new opts[:menu]["categories"]
+      parsed_menu = JSON.parse opts[:menu]
+      @categories = CategoryCollection.new parsed_menu["categories"]
     end
 
     def inspect
