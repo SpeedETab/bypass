@@ -7,7 +7,18 @@ module Bypass
     def initialize(opts = {})
       @concession_id = opts.fetch(:concession_id)
       @meta = opts[:menu]["meta"]
-      parsed_menu = JSON.parse opts[:menu]
+
+      begin
+        if opts[:menu].is_a?(String)
+          parsed_menu = JSON.parse opts[:menu]
+        else
+          parsed_menu = opts[:menu]
+        end
+
+      rescue ArgumentError => e
+        Rails.logger.error(" The error raised was #{e.inspect}")
+      end
+
       @categories = CategoryCollection.new parsed_menu["categories"]
     end
 
