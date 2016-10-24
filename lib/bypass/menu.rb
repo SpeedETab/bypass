@@ -9,7 +9,7 @@ module Bypass
       @meta = opts[:menu]["meta"]
 
       begin
-        if opts[:menu].respond_to?(:json)
+        if opts[:menu].respond_to?(:string)
           parsed_menu = JSON.parse opts[:menu]
         elsif opts[:menu].respond_to?(:hash)
           parsed_menu = opts[:menu]
